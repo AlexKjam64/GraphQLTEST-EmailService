@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: nintendo-emailService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/u2r94970203
+    username: postgres
+    password: password
+
+server:
+  port: 8084
+  servlet:
+    contextPath: /email
